@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Poemas-para-aylin/static/css/main.e3c96432.css",
+    "main.css": "/Poemas-para-aylin/static/css/main.1bfc3891.css",
     "main.js": "/Poemas-para-aylin/static/js/main.4b6d42a5.js",
     "static/js/787.913a19b4.chunk.js": "/Poemas-para-aylin/static/js/787.913a19b4.chunk.js",
+    "static/media/letra1.ttf": "/Poemas-para-aylin/static/media/letra1.31f0a02d84d42627c894.ttf",
     "index.html": "/Poemas-para-aylin/index.html",
-    "main.e3c96432.css.map": "/Poemas-para-aylin/static/css/main.e3c96432.css.map",
+    "main.1bfc3891.css.map": "/Poemas-para-aylin/static/css/main.1bfc3891.css.map",
     "main.4b6d42a5.js.map": "/Poemas-para-aylin/static/js/main.4b6d42a5.js.map",
     "787.913a19b4.chunk.js.map": "/Poemas-para-aylin/static/js/787.913a19b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3c96432.css",
+    "static/css/main.1bfc3891.css",
     "static/js/main.4b6d42a5.js"
   ]
 }
