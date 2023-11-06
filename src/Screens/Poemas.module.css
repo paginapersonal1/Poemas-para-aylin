@@ -1,0 +1,179 @@
+.Poemas {
+    font-size: 2.2rem;
+}
+.Poemas h1 {
+    margin: 10px 100px 0 100px;
+}
+.Poemas p {
+    margin-right: 7vw;
+    margin-left: 7vw;
+    font-size: 0.7em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    max-height: 40vh;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: cursive;
+}
+.container h5 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.buttons button {
+    width: 18vw;
+    height: 10vh;
+    font-size: 0.7em;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.buttons button:hover {
+    cursor: pointer;
+  }
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.pantallaPoema {
+    animation: aparecer 1s ease;
+}
+@media (max-width: 650px){
+    .buttons button {
+        width: 30vw;
+        height: 8vh;
+        font-size: 0.6em;
+        border-radius: 15px;
+    }
+    .Poemas h1 {
+        font-size: 1.7em;
+        margin: 10px 20px 0 20px;
+    }
+    .Poemas p {
+        font-size: 0.6em;
+    }
+    .container {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 565px){
+    .Poemas h1 {
+        font-size: 1.5em;
+    }
+    .container {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 450px){
+    .Poemas h1 {
+        font-size: 1.2em;
+    }
+    .Poemas p {
+        font-size: 0.4em;
+    }
+    .container {
+        font-size: 0.5em;
+    }
+    .buttons button {
+        width: 30vw;
+        height: 6vh;
+        font-size: 0.4em;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 361px){
+    .Poemas h1 {
+        font-size: 1.2em;
+    }
+    .Poemas p {
+        font-size: 0.45em;
+    }
+    .container {
+        font-size: 0.5em;
+    }
+}
+
+@media (min-height: 1300px){
+    .Poemas h1 {
+        font-size: 2.8em;
+        margin: 70px 50px 0 50px;
+    }
+    .Poemas p {
+        margin-right: 7vw;
+        margin-left: 7vw;
+        font-size: 1em;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        max-height: 40vh;
+        font-size: 1.1em;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .buttons button {
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.8em;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+    .buttons button:focus, .buttons button.focus {
+        box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+    }
+    
+}
+@media (min-height: 2300px){
+    .Poemas h1{
+        font-size: 3.6em;
+    }
+    .Poemas p{
+        font-size: 1.2em;
+    }
+    .container{
+        font-size: 1.6em;
+        height: 40vh;
+        max-height: 40vh;
+    }
+    .buttons{
+        font-size: 1.5em;
+    }
+}
+@media (min-height: 3039px){
+    .Poemas h1{
+        font-size: 4.7em;
+    }
+    .Poemas p{
+        font-size: 1.7em;
+    }
+    .container{
+        font-size: 2.1em;
+        height: 40vh;
+        max-height: 40vh;
+    }
+    .buttons{
+        font-size: 1.9em;
+    }
+}
