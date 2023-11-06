@@ -19,7 +19,11 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: cursive;
+    font-family: letrachida;
+}
+@font-face{
+    font-family: letrachida;
+    src: url(letra1.ttf)
 }
 .container h5 {
     margin-top: 0px;
